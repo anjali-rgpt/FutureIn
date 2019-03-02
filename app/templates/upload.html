@@ -1,0 +1,9 @@
+<div>
+    <h3>Upload an image:</h3>
+    <br>
+</div>
+
+<form id="upload-form" action="{{ user_for('upload') }}" method=["GET","POST"]>
+    <input type="file" name="file" accept="image/">
+    <input type="submit" value="send">
+</form>
